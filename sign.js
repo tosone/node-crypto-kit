@@ -3,7 +3,7 @@ var fs = require('fs');
 
 var pubkey = fs.readFileSync('pub.crt', 'utf8');
 var prikey = fs.readFileSync('pri.crt', 'utf8');
-var data = "tosone"
+var data = "tosone";
 console.log("publickey:" + pubkey);
 console.log("privatekey:" + prikey);
 
